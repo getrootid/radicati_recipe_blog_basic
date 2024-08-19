@@ -1,0 +1,22 @@
+uuid: 28677492-46c3-43eb-a1ef-bcff330d66d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_formatted_content
+    - node.type.page
+  module:
+    - text
+id: node.page.field_formatted_content
+field_name: field_formatted_content
+entity_type: node
+bundle: page
+label: 'Formatted Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,52 @@
+uuid: 8c1ccdc3-2deb-4272-8050-81d1f3749779
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.post.field_featured_image
+    - field.field.node.post.field_formatted_content
+    - field.field.node.post.field_post__publish_date
+    - field.field.node.post.field_summary
+    - field.field.node.post.field_tags
+    - node.type.post
+  module:
+    - datetime
+    - user
+_core:
+  default_config_hash: 6IwoZWqhAyGQ0XFDRmjOrc_3ClL0jP9_KezLI7J1RrY
+id: node.post.teaser
+targetEntityType: node
+bundle: post
+mode: teaser
+content:
+  field_featured_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: 1_1_half_width
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_post__publish_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_summary:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_formatted_content: true
+  field_tags: true
+  links: true
+  search_api_excerpt: true

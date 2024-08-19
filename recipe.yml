@@ -1,0 +1,34 @@
+name: 'Radicati Blog and Basic Pages'
+description: 'Base content types for blog and basic pages.'
+type: 'Content'
+recipes:
+  - radicati-recipe-content-base
+  - radicati-recipe-admin
+install:
+  - field
+  - field_ui
+  - text
+  - datetime
+  - filter
+  - editor
+  - ckeditor5
+  - text_field_formatter
+  - link
+  - options
+  - telephone
+  - entity_reference_revisions
+  - file
+  - field_group
+  - taxonomy
+  - views
+  - views_ui
+config:
+  import:
+    field: "*"
+    field_ui: "*"
+    text: "*"
+    datetime: "*"
+    text_field_formatter: "*"
+    paragraphs: "*"
+    field_group: "*"
+    taxonomy: "*"

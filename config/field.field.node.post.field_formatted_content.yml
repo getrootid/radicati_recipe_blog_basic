@@ -1,0 +1,22 @@
+uuid: 8e3370a2-1db5-4474-b0b1-96dec23dc038
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_formatted_content
+    - node.type.post
+  module:
+    - text
+id: node.post.field_formatted_content
+field_name: field_formatted_content
+entity_type: node
+bundle: post
+label: 'Formatted Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

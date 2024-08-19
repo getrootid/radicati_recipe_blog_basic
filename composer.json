@@ -1,0 +1,14 @@
+{
+  "name": "getrootid/radicati-recipe-blog-basic",
+  "description": "Base content types for blog and basic pages for Radicati sites.",
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Jason Mickela"
+    }
+  ],
+  "require": {
+    "drupal/paragraphs": "*"
+  }
+}
