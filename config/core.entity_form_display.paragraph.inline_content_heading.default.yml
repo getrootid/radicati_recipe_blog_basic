@@ -1,0 +1,32 @@
+uuid: 4cbf86e1-220a-4d62-8255-c9d1c69b45c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.inline_content_heading.field_ich_heading
+    - field.field.paragraph.inline_content_heading.field_ich_subheading
+    - paragraphs.paragraphs_type.inline_content_heading
+  module:
+    - heading
+id: paragraph.inline_content_heading.default
+targetEntityType: paragraph
+bundle: inline_content_heading
+mode: default
+content:
+  field_ich_heading:
+    type: heading
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ich_subheading:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

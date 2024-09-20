@@ -1,0 +1,19 @@
+uuid: e1559af7-c52e-4f53-9290-2b0dd3abb83a
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_icta_button
+field_name: field_icta_button
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

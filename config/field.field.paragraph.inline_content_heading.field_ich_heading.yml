@@ -1,0 +1,29 @@
+uuid: ccfc705d-b5d5-44c7-bf4c-00a9b6ab2bdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ich_heading
+    - paragraphs.paragraphs_type.inline_content_heading
+  module:
+    - heading
+id: paragraph.inline_content_heading.field_ich_heading
+field_name: field_ich_heading
+entity_type: paragraph
+bundle: inline_content_heading
+label: Heading
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  label: Heading
+  allowed_sizes:
+    h2: h2
+    h3: h3
+    h4: h4
+    h5: h5
+    h6: h6
+    h1: 0
+field_type: heading

@@ -1,0 +1,48 @@
+uuid: 58150afc-4d6f-4a17-a47c-5e4dcef18bbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.inline_content_call_to_action.field_icta_button
+    - field.field.paragraph.inline_content_call_to_action.field_icta_content
+    - field.field.paragraph.inline_content_call_to_action.field_icta_title
+    - paragraphs.paragraphs_type.inline_content_call_to_action
+  module:
+    - manage_display
+    - radicati_base
+    - text
+id: paragraph.inline_content_call_to_action.default
+targetEntityType: paragraph
+bundle: inline_content_call_to_action
+mode: default
+content:
+  field_icta_button:
+    type: radicati_link_button_formatter
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_icta_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_icta_title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h2
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

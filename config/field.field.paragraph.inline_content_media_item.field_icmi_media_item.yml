@@ -1,0 +1,50 @@
+uuid: 797fa79e-147d-45d1-b06a-013c1daf55e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icmi_media_item
+    - paragraphs.paragraphs_type.inline_content_media_item
+  module:
+    - entity_reference_revisions
+id: paragraph.inline_content_media_item.field_icmi_media_item
+field_name: field_icmi_media_item
+entity_type: paragraph
+bundle: inline_content_media_item
+label: 'Media Item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: {  }
+    negate: 0
+    target_bundles_drag_drop:
+      card_collection_item:
+        weight: 9
+        enabled: false
+      inline_content_formatted_text:
+        weight: 10
+        enabled: false
+      inline_content_media_item:
+        weight: 11
+        enabled: false
+      jump_menu_item:
+        weight: 12
+        enabled: false
+      logo_grid_item:
+        weight: 13
+        enabled: false
+      media_item:
+        weight: 14
+        enabled: true
+      number_highlight_item:
+        weight: 15
+        enabled: false
+      statistic_item:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

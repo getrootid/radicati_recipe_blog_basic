@@ -1,0 +1,21 @@
+uuid: 73ff9e77-858f-45e7-97fc-43a53ec2030f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_accordion_start_open
+    - paragraphs.paragraphs_type.accordion_item
+id: paragraph.accordion_item.field_accordion_start_open
+field_name: field_accordion_start_open
+entity_type: paragraph
+bundle: accordion_item
+label: 'Start Open'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

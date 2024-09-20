@@ -1,0 +1,10 @@
+uuid: e6d0188e-22d8-4db4-8685-3d3879b56565
+langcode: en
+status: true
+dependencies: {  }
+id: inline_content_accordions
+label: 'Inline Content: Accordions'
+icon_uuid: null
+icon_default: null
+description: 'An inline accordion section. Each item can default to open or closed.'
+behavior_plugins: {  }

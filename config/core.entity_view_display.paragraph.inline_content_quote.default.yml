@@ -1,0 +1,32 @@
+uuid: bfac4132-7d2b-41f6-b717-e61e844bed51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.inline_content_quote.field_icq_quote_byline
+    - field.field.paragraph.inline_content_quote.field_icq_quote_text
+    - paragraphs.paragraphs_type.inline_content_quote
+  module:
+    - text
+id: paragraph.inline_content_quote.default
+targetEntityType: paragraph
+bundle: inline_content_quote
+mode: default
+content:
+  field_icq_quote_byline:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_icq_quote_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

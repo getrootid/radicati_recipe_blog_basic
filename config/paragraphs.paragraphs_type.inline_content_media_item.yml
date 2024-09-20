@@ -1,0 +1,10 @@
+uuid: 178a4a9d-74e1-40a3-894a-d1ff24a36077
+langcode: en
+status: true
+dependencies: {  }
+id: inline_content_media_item
+label: 'Inline Content: Media Item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: bed21520-f5de-4912-963d-cba84a8536f9
+langcode: en
+status: true
+dependencies: {  }
+id: inline_content_formatted_text
+label: 'Inline Content: Formatted Text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

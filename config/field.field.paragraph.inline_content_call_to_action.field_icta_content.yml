@@ -1,0 +1,24 @@
+uuid: 5cf20761-ea75-4d89-86d9-1f056824c24d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icta_content
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.inline_content_call_to_action
+  module:
+    - text
+id: paragraph.inline_content_call_to_action.field_icta_content
+field_name: field_icta_content
+entity_type: paragraph
+bundle: inline_content_call_to_action
+label: Content
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

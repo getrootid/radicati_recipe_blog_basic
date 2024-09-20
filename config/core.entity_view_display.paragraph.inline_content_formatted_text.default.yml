@@ -1,0 +1,23 @@
+uuid: c38727b8-6cb7-4592-9138-4c4b9dc2f651
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.inline_content_formatted_text.field_icft_formatted_text
+    - paragraphs.paragraphs_type.inline_content_formatted_text
+  module:
+    - text
+id: paragraph.inline_content_formatted_text.default
+targetEntityType: paragraph
+bundle: inline_content_formatted_text
+mode: default
+content:
+  field_icft_formatted_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,26 @@
+uuid: d825e8c5-a4c3-4001-b08a-f28fd036c8b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icft_formatted_text
+    - filter.format.basic_html
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.inline_content_formatted_text
+  module:
+    - text
+id: paragraph.inline_content_formatted_text.field_icft_formatted_text
+field_name: field_icft_formatted_text
+entity_type: paragraph
+bundle: inline_content_formatted_text
+label: 'Formatted Text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - full_html
+field_type: text_long

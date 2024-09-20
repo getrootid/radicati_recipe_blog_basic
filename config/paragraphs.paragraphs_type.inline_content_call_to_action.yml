@@ -1,0 +1,10 @@
+uuid: 6cb402d1-65b7-4cd2-9cb7-56ecdd50b315
+langcode: en
+status: true
+dependencies: {  }
+id: inline_content_call_to_action
+label: 'Inline Content: Call to Action'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,31 @@
+uuid: 7033defe-0142-48b9-9127-6a89f55560b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.inline_content_heading.field_ich_heading
+    - field.field.paragraph.inline_content_heading.field_ich_subheading
+    - paragraphs.paragraphs_type.inline_content_heading
+  module:
+    - heading
+id: paragraph.inline_content_heading.default
+targetEntityType: paragraph
+bundle: inline_content_heading
+mode: default
+content:
+  field_ich_heading:
+    type: heading
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_ich_subheading:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true
