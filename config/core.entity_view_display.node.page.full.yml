@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.full
     - field.field.node.page.field_featured_image
+    - field.field.node.page.field_formatted_content
     - field.field.node.page.field_summary
     - node.type.page
   module:
@@ -14,6 +15,8 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
+_core:
+  default_config_hash: InBC2Zuq0Iv_NeGLst9r2MWoN1fi7S02AY13D33WAgo
 id: node.page.full
 targetEntityType: node
 bundle: page
@@ -25,19 +28,19 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 101
+    weight: 3
     region: content
   field_summary:
     type: basic_string
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 102
+    weight: 4
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 1
     region: content
   title:
     type: title
@@ -46,9 +49,10 @@ content:
       link_to_entity: true
       tag: h2
     third_party_settings: {  }
-    weight: -49
+    weight: 0
     region: content
 hidden:
   created: true
+  field_formatted_content: true
   search_api_excerpt: true
   uid: true

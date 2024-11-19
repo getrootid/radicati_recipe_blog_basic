@@ -5,10 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.field_featured_image
+    - field.field.node.page.field_formatted_content
     - field.field.node.page.field_summary
     - node.type.page
   module:
     - manage_display
+_core:
+  default_config_hash: 7K53ozJR3CM936m531Ato1Sd7gEXXqksckfheITgIOY
 id: node.page.teaser
 targetEntityType: node
 bundle: page
@@ -31,6 +34,7 @@ content:
 hidden:
   created: true
   field_featured_image: true
+  field_formatted_content: true
   field_summary: true
   search_api_excerpt: true
   uid: true

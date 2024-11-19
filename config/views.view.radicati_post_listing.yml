@@ -9,6 +9,8 @@ dependencies:
     - datetime
     - node
     - user
+_core:
+  default_config_hash: kfSIeGAAeJE30JnxXDBBPcF66jz2RnuuaLB57S9o34M
 id: radicati_post_listing
 label: 'Radicati: Post Listing'
 module: views

@@ -7,6 +7,8 @@ dependencies:
     - node.type.post
   module:
     - text
+_core:
+  default_config_hash: fsAKr5P_Ug4kY6v1hy4BhlpiFVE7am6880VsN0fJAHI
 id: node.post.field_formatted_content
 field_name: field_formatted_content
 entity_type: node

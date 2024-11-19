@@ -4,10 +4,17 @@ status: true
 dependencies:
   config:
     - field.field.node.post.field_featured_image
+    - field.field.node.post.field_formatted_content
+    - field.field.node.post.field_inline_content
+    - field.field.node.post.field_post__publish_date
     - field.field.node.post.field_summary
+    - field.field.node.post.field_tags
     - node.type.post
   module:
+    - entity_reference_revisions
     - manage_display
+_core:
+  default_config_hash: xRKNfTmuyVR8VnVzH3U7qQ-bgXxHH77iXukZCDIiy1o
 id: node.post.default
 targetEntityType: node
 bundle: post
@@ -21,6 +28,15 @@ content:
       link: false
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_inline_content:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 103
     region: content
   field_summary:
     type: basic_string
@@ -45,5 +61,8 @@ content:
     region: content
 hidden:
   created: true
+  field_formatted_content: true
+  field_post__publish_date: true
+  field_tags: true
   search_api_excerpt: true
   uid: true

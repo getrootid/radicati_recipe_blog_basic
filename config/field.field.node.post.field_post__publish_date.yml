@@ -7,6 +7,8 @@ dependencies:
     - node.type.post
   module:
     - datetime
+_core:
+  default_config_hash: 1cJlXw65g-MogTRAFMCvdJ5RimEo-EmnXxyr38GNDUE
 id: node.post.field_post__publish_date
 field_name: field_post__publish_date
 entity_type: node

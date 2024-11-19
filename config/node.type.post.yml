@@ -18,7 +18,7 @@ third_party_settings:
     existing_nodes_link_text: 'View Posts'
     type_weight: 0
 _core:
-  default_config_hash: JByzI1-BQ_TVYrfiuuqAJ_xVYMWA83WVUKi6Qud9Jm4
+  default_config_hash: VQs7HaObwp_7VB2D7X2EYjHBgzErABjttCN_1XG0Eh4
 name: Post
 type: post
 description: 'Timely content. This can be a blog post, or any other type of page that is meant to be displayed chronologically.'

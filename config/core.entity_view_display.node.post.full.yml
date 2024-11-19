@@ -5,39 +5,40 @@ dependencies:
   config:
     - core.entity_view_mode.node.full
     - field.field.node.post.field_featured_image
+    - field.field.node.post.field_formatted_content
+    - field.field.node.post.field_inline_content
+    - field.field.node.post.field_post__publish_date
     - field.field.node.post.field_summary
+    - field.field.node.post.field_tags
     - node.type.post
   module:
+    - entity_reference_revisions
     - layout_builder
     - manage_display
 third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
+_core:
+  default_config_hash: hBAb7kudRsYmnT3_LQJHh-H7TsCGLZIuw1j0ol6sdGM
 id: node.post.full
 targetEntityType: node
 bundle: post
 mode: full
 content:
-  field_featured_image:
-    type: entity_reference_label
-    label: above
+  field_inline_content:
+    type: entity_reference_revisions_entity_view
+    label: hidden
     settings:
-      link: true
+      view_mode: default
+      link: ''
     third_party_settings: {  }
-    weight: 101
-    region: content
-  field_summary:
-    type: basic_string
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 102
+    weight: 2
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 1
     region: content
   title:
     type: title
@@ -46,9 +47,14 @@ content:
       link_to_entity: true
       tag: h2
     third_party_settings: {  }
-    weight: -49
+    weight: 0
     region: content
 hidden:
   created: true
+  field_featured_image: true
+  field_formatted_content: true
+  field_post__publish_date: true
+  field_summary: true
+  field_tags: true
   search_api_excerpt: true
   uid: true

@@ -7,6 +7,8 @@ dependencies:
     - node.type.page
   module:
     - text
+_core:
+  default_config_hash: uwongKjnQRqTxwWPlQ9MhMm5UmZiaA_vaJ8lyKhx7eE
 id: node.page.field_formatted_content
 field_name: field_formatted_content
 entity_type: node

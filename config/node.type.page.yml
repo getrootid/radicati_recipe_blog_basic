@@ -17,10 +17,12 @@ third_party_settings:
     type_description: ''
     existing_nodes_link_text: 'View Basic Pages'
     type_weight: 0
+_core:
+  default_config_hash: d9jQg865viT_pi2rZO_x0KRHXLdTanYbHEbGwdVU6bc
 name: 'Basic Page'
 type: page
 description: 'A simple page not made with a component driven layout.'
-help: ''
+help: null
 new_revision: true
 preview_mode: 1
 display_submitted: true
